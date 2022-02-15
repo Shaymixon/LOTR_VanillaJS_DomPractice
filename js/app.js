@@ -126,7 +126,7 @@ function makeBaddies() {
 
 	for (let i=0; i< baddies.length; i++) {
 		const liBaddy = document.createElement('li')
-	}
+	
     // give each of the baddies a class of "baddy"
 	    liBaddy.className = 'baddy'
 		liBaddy.textContent = baddies[i]
